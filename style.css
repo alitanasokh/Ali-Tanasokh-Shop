@@ -337,3 +337,22 @@ header {
     }
 
 }
+
+.logo{
+    font-size:45px;
+    font-weight:900;
+    letter-spacing:3px;
+    color:#d4af37;
+    text-transform:uppercase;
+}
+
+
+.logo span{
+    color:#111;
+}
+
+
+.logo:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}

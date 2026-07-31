@@ -274,3 +274,33 @@ header {
     }
 
 }
+.features{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding:40px 8%;
+    text-align:center;
+}
+
+
+.feature{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 20px #ddd;
+    flex:1;
+}
+
+
+.feature h3{
+    margin:15px 0;
+}
+
+
+@media(max-width:768px){
+
+    .features{
+        flex-direction:column;
+    }
+
+}

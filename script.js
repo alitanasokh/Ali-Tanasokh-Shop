@@ -15,3 +15,14 @@ function changeSlide() {
 }
 
 setInterval(changeSlide, 3000);
+let cart = [];
+
+function addToCart(product){
+
+    cart.push(product);
+
+    alert(
+        product + " به سبد خرید اضافه شد"
+    );
+
+}

@@ -26,6 +26,39 @@ header {
 }
 
 nav a {
+    footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    margin-top:50px;
+}
+
+
+.footer-logo{
+    font-size:30px;
+    color:#d4af37;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+
+.footer-links{
+    margin:20px 0;
+}
+
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+
+
+.copyright{
+    color:#aaa;
+    margin-top:20px;
+}
     color: white;
     text-decoration: none;
     margin: 0 10px;

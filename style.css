@@ -134,3 +134,38 @@ header {
 }
 
 }
+.slider {
+    width: 100%;
+    text-align: center;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.slide p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+
+.hero {
+    background:
+    linear-gradient(
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)
+    ),
+    url("https://images.unsplash.com/photo-1441986300917-64674bd600d8")
+    center/cover;
+
+    height: 550px;
+}

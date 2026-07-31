@@ -169,3 +169,14 @@ header {
 
     height: 550px;
 }
+
+.logo {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #d4af37;
+}
+
+.logo span {
+    color: white;
+}

@@ -229,3 +229,48 @@ header {
     width:100%;
     font-size:16px;
 }
+
+@media (max-width:768px){
+
+    header{
+        text-align:center;
+        padding:20px;
+    }
+
+    nav{
+        margin-top:15px;
+    }
+
+    nav a{
+        display:inline-block;
+        margin:8px;
+    }
+
+
+    .hero{
+        height:400px;
+        padding:20px;
+    }
+
+
+    .slide h1{
+        font-size:32px;
+    }
+
+
+    .slide p{
+        font-size:18px;
+    }
+
+
+    .cards,
+    .category-box{
+        width:100%;
+    }
+
+
+    .card{
+        width:100%;
+    }
+
+}

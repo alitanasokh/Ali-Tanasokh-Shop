@@ -243,3 +243,19 @@ nav a:hover{
     justify-content:center;
     align-items:center;
 }
+.whatsapp{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#25D366;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    text-decoration:none;
+    z-index:1000;
+}

@@ -230,3 +230,16 @@ nav a:hover{
     font-weight:bold;
     letter-spacing:5px;
 }
+.hero h2{
+    margin:20px 0;
+    color:#d4af37;
+}
+
+
+.hero{
+    min-height:450px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
